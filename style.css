@@ -1,0 +1,76 @@
+/* General body styling */
+body {
+  font-family: Arial, sans-serif;
+  text-align: center;
+  background: #f4f4f9;
+  margin: 0;
+  padding: 0;
+}
+
+/* Header styling */
+header {
+  background: #333;
+  color: white;
+  padding: 1rem;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Controls section */
+.controls {
+  margin: 1rem 0;
+}
+
+button {
+  margin: 5px;
+  padding: 10px 15px;
+  border: none;
+  background: #4CAF50;
+  color: white;
+  cursor: pointer;
+  border-radius: 5px;
+  font-weight: bold;
+  transition: background 0.3s;
+}
+
+button:hover {
+  background: #45a049;
+}
+
+/* Bars container */
+#bars-container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  height: 400px;
+  margin: 20px auto;
+  width: 90%;
+  border: 1px solid #ccc;
+  background: white;
+  padding-bottom: 10px;
+}
+
+/* Bar styling */
+.bar {
+  background: steelblue;
+  width: 20px;
+  margin: 0 2px;
+  transition: height 0.2s, background 0.2s;
+}
+
+/* Sorting colors */
+.bar.red {
+  background: red !important;
+}
+
+.bar.yellow {
+  background: yellow !important;
+}
+
+.bar.green {
+  background: green !important;
+}
+
+.bar.orange {
+  background: orange !important;
+}
